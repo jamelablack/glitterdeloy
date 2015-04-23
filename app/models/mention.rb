@@ -7,3 +7,7 @@ class Mention < ActiveRecord::Base
 		self.update(viewed_at: Time.now)
 	end
 end
+
+
+
+
